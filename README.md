@@ -6,9 +6,9 @@
 
 $ # clone repository <br />
 $ pip install -r imports.txt <br />
-$ py kitchen.py <br />
+$ py main.py <br />
 
 ### with docker
 
 $ docker build -t dining . # create kitchen image <br />
-$ docker run -d --net pr_lab1 --name dining dining # run docker container on created network <br />
+$ docker run -d --net pr_lab1 --name kitchen kitchen # run docker container on created network <br />
